@@ -28,7 +28,7 @@ public interface AsciiBlock {
       } catch (Exception e) {
         pen.printf("*** ERROR: Missing row %d ***\n", i);
       } // try/catch
-    } // for
+    } // forLEFTRIGHT
   } // print(PrintWriter, AsciiBlock)
 
   // +---------+-----------------------------------------------------------
